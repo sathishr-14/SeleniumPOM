@@ -39,6 +39,7 @@ public class ProductInfoPage {
 	public int getProductImagesCount() {
 		int count = eleUtil.waitForElementsToBeVisible(productImages, 10).size();
 		System.out.println(count);
+		System.out.println();
 		return count;
 	}
 	
