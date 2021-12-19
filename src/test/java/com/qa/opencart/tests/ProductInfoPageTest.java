@@ -48,12 +48,4 @@ public class ProductInfoPageTest extends BaseTest {
 		Assert.assertEquals(actProductInfoMap.get("Brand"), "Apple");
 	}
 
-//	@Test
-//	public void addToCartTest() {
-//		searchResultPage = accountsPage.doSearch("Macbook");
-//		productInfoPage = searchResultPage.selectProduct("MacBook Pro");
-//		cartpage = productInfoPage.addToCart();
-//		Assert.assertEquals(true, productInfoPage.addToCart().isDisplayed());
-//	}
-
 }
