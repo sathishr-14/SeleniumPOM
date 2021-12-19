@@ -71,11 +71,4 @@ public class ProductInfoPage {
 		productInfoMap.put("ExcTaxPrice", exPrice);
 		
 	}
-	
-	public CartPage addToCart() {
-		eleUtil.doClick(addToCartBtn);
-		eleUtil.doClick(clickviewcart);
-		eleUtil.doClick(viewcart);
-		return new CartPage(driver);
-	}
 }
