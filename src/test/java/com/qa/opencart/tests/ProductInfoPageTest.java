@@ -43,7 +43,7 @@ public class ProductInfoPageTest extends BaseTest {
 		productInfoPage = searchResultPage.selectProduct("MacBook Pro");
 		Map<String, String> actProductInfoMap = productInfoPage.getProductInfo();
 		actProductInfoMap.forEach((k, v) -> System.out.println(k + ":" + v));
-		Assert.assertEquals(actProductInfoMap.get("name"), "MacBook Pros");
+		Assert.assertEquals(actProductInfoMap.get("name"), "MacBook Pro");
 		Assert.assertEquals(actProductInfoMap.get("Brand"), "Apple");
 		Assert.assertEquals(actProductInfoMap.get("Brand"), "Apple");
 	}
