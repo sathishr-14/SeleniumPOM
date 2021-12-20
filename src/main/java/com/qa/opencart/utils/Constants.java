@@ -9,7 +9,7 @@ public class Constants {
 	public static final String LOGIN_PAGE_URL_FRACTION = "route=account/login";
 	public static final String REGISTRATION_PAGE_TITLE = "Register Account";
 	public static final String ACCOUNTS_PAGE_TITLE = "My Account";
-	public static final int DEFAULT_TIME_OUT = 5;
+	public static final int DEFAULT_TIME_OUT = 7;
 	public static final String ACCOUNTS_PAGE_HEADER = "Your Store";
 	public static final int  IMAC_IMAGE_COUNT = 3;
 	public static final String REG_SUCCESS_MSG = "Your Account Has Been Created";
