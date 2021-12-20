@@ -49,7 +49,7 @@ public class DriverFactory {
 			System.out.println("Please pass the right browser : "+browserName);
 		}
 		
-		getDriver().manage().window().fullscreen();
+//		getDriver().manage().window().fullscreen();
 		getDriver().get(prop.getProperty("url"));
 		
 		return getDriver();
